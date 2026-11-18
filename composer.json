@@ -1,0 +1,10 @@
+{
+  "name": "pharmago/app",
+  "description": "PharmaGo - Consulta inteligente de medicamentos (PHP 8.2+)",
+  "type": "project",
+  "require": { "php": ">=8.2", "ext-pdo": "*", "ext-pdo_mysql": "*", "ext-intl": "*", "ext-mbstring": "*" },
+  "autoload": {
+    "psr-4": { "PharmaGo\\": "src/" },
+    "files": ["src/Core/helpers.php"]
+  }
+}
